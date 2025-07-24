@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
     };
 
     const analyticsSlider = new Swiper('.analytics-slider', {
-        ...swiperOptions, // Menggunakan opsi yang sama
+        ...swiperOptions,
         navigation: {
             nextEl: '#analytics .swiper-button-next',
             prevEl: '#analytics .swiper-button-prev',
@@ -25,14 +25,13 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     const developmentSlider = new Swiper('.development-slider', {
-        ...swiperOptions, // Menggunakan opsi yang sama
+        ...swiperOptions,
         navigation: {
             nextEl: '#development .swiper-button-next',
             prevEl: '#development .swiper-button-prev',
         },
     });
 
-    // Kode untuk nav link dan observer tetap sama
     const navLinks = document.querySelectorAll('.nav-link');
     const sections = document.querySelectorAll('.gallery-section');
 

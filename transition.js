@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
         link.addEventListener('click', function(e) {
             const destination = this.href;
 
-            // Jika link mengarah ke halaman yang sama (cth: #projects), biarkan default
+            // Jika link mengarah ke halaman yang sama, biarkan default
             if (destination === window.location.href) {
                 return;
             }
