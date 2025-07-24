@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaleidoscope - Jakarta Spatial Hub</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="kaleidoscope.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="transition.css">
+</head>
+<body>
+    <div id="page-wrapper" style="opacity:0;">
+        <div class="sticky-container">
+            <header class="page-header">
+                <a href="index.html" class="back-icon" aria-label="Kembali ke Halaman Utama">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="m12 19-7-7 7-7"/></svg>
+                </a>
+                <h1 class="header-title">Kaleidoscope</h1>
+                <div class="header-placeholder"></div>
+            </header>
+
+            <nav class="sub-nav">
+                <a href="#analytics" class="nav-link">The Analytics Hub</a>
+                <a href="#development" class="nav-link">The Development Atlas</a>
+            </nav>
+        </div>
+
+        <main class="content-wrapper">
+            <section id="analytics" class="gallery-section">
+                <h2>The Analytics Hub</h2>
+                <div class="swiper analytics-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"> <div class="card"> <img src="images/when_jakarta_had_to_pause.jpg" alt="When Jakarta Had to Pause"> <div class="card-content"> <h3>When Jakarta Had To Pause</h3> <p>SIKM: The Controversial Policy that Changed the Heartbeat of a City's Mobility During COVID-19.</p> <a href="https://arcg.is/14SDT12" target="_blank" rel="noopener noreferrer" class="card-button">See Detail</a> </div> </div> </div>
+                        <div class="swiper-slide"> <div class="card"> <img src="images/ecci.jpg" alt="Environment Carrying Capacity Index"> <div class="card-content"> <h3>Environment Carrying Capacity Index</h3> <p>A Deeper Understanding of Spatial Environmental Data and Its Benefits for Investment in DKI Jakarta.</p> <a href="https://arcg.is/8bqzT" target="_blank" rel="noopener noreferrer" class="card-button">See Detail</a> </div> </div> </div>
+                        <div class="swiper-slide"> <div class="card"> <img src="images/investing_in_spatial_ways.jpg" alt="Investing in Spatial Ways"> <div class="card-content"> <h3>Investing in Spatial Ways</h3> <p>Harnessing the power of modern GIS technology, the DKI Jakarta Provincial Department of Investment and One-Stop Services pinpoints optimal locations for prospective investors.</p> <a href="https://storymaps.arcgis.com/stories/cad114cd0f274b798ff4dbc9a659207a" target="_blank" rel="noopener noreferrer" class="card-button">See Detail</a> </div> </div> </div>
+                        <div class="swiper-slide"> <div class="card"> <img src="images/pop-up-publications.jpg" alt="Publications"> <div class="card-content"> <h3>IOP Conference Series: Earth and Environmental Science</h3> <p>Discovering Hidden Pattern in COVID-19 Prevention through Exit-Entry Permit Letter (SIKM) System using Geospatial Analysis</p> <a href="https://iopscience.iop.org/article/10.1088/1755-1315/1418/1/012042/meta" target="_blank" rel="noopener noreferrer" class="card-button">See Detail</a> </div> </div> </div>
+                        <!-- <div class="swiper-slide"> <div class="card"> <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?q=80&w=1074&auto=format&fit=crop" alt="Social Media Icons"> <div class="card-content"> <h3>Social Sentiment Analysis</h3> <p>Understanding public opinion on new infrastructure projects through social media data.</p> <a href="#" class="card-button">See Detail</a> </div> </div> </div> -->
+                    </div>
+                    <div class="swiper-button-next"></div> <div class="swiper-button-prev"></div>
+                </div>
+            </section>
+            <section id="development" class="gallery-section">
+                <h2>The Development Atlas</h2>
+                <div class="swiper development-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"> <div class="card"> <img src="images/pop-up-mapping_v1.jpg" alt="Mapping in Progress"> <div class="card-content"> <h3>New Insights Are Being Mapped</h3> <p>Our team is currently processing data and designing in-depth analyses that will soon be presented here. Stay tuned for new visualizations and a fresh understanding of Jakarta.</p> <a class="card-button-inactive">See Detail</a> </div> </div> </div>
+                        <div class="swiper-slide"> <div class="card"> <img src="images/pop-up-mapping_v1.jpg" alt="Mapping in Progress"> <div class="card-content"> <h3>New Insights Are Being Mapped</h3> <p>Our team is currently processing data and designing in-depth analyses that will soon be presented here. Stay tuned for new visualizations and a fresh understanding of Jakarta.</p> <a class="card-button-inactive">See Detail</a> </div> </div> </div>
+                    </div>
+                    <div class="swiper-button-next"></div> <div class="swiper-button-prev"></div>
+                </div>
+            </section>
+        </main>
+    
+        <footer class="site-footer">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Jakarta One-Stop Service Spatial Hub</h3>
+                    <h4>Dept. of Investment and Integrated One Stop Services, Jakarta Provincial Government, Indonesia.</h4>
+                    <p>Jl. Epicentrum Sel. No.Kav. 22 2, RT.2/RW.5, Karet Kuningan, Kecamatan Setiabudi, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12940</p>
+                    <p>This site serves as a communication and visualization platform for maps and data from the Jakarta Provincial Department of Investment and One-Stop Services, for both the DKI Jakarta Provincial Government and the public.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://x.com/layananjakarta" target="_blank" rel="noopener noreferrer"  aria-label="X/Twitter" title="Twitter"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
+                    <a href="https://www.facebook.com/layananjakarta" target="_blank" rel="noopener noreferrer"  aria-label="Facebook" title="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4z"></path></svg></a>
+                    <a href="https://www.instagram.com/layananjakarta/" target="_blank" rel="noopener noreferrer"  aria-label="Instagram" title="Instagram"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.85s-.011 3.584-.069 4.85c-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07s-3.584-.012-4.85-.07c-3.252-.148-4.771-1.691-4.919-4.919-.058-1.265-.069-1.645-.069-4.85s.011-3.584.069-4.85c.149-3.225 1.664-4.771 4.919-4.919C8.416 2.175 8.796 2.163 12 2.163zm0 1.441c-3.119 0-3.482.01-4.698.067-2.433.111-3.626 1.309-3.732 3.732-.057 1.217-.066 1.566-.066 4.698s.009 3.482.066 4.698c.106 2.423 1.299 3.626 3.732 3.732 1.217.057 1.566.066 4.698.066s3.482-.009 4.698-.066c2.433-.111 3.626-1.309 3.732-3.732.057-1.217.066-1.566.066-4.698s-.009-3.482-.066-4.698c-.106-2.423-1.299-3.626-3.732-3.732C15.482 3.614 15.119 3.604 12 3.604zm0 4.232c-2.404 0-4.356 1.952-4.356 4.356s1.952 4.356 4.356 4.356 4.356-1.952 4.356-4.356-1.952-4.356-4.356-4.356zm0 7.272c-1.608 0-2.916-1.308-2.916-2.916s1.308-2.916 2.916-2.916 2.916 1.308 2.916 2.916-1.308 2.916-2.916 2.916zm4.432-6.024c-.588 0-1.064.476-1.064 1.064s.476 1.064 1.064 1.064 1.064-.476 1.064-1.064-.476-1.064-1.064-1.064z"></path></svg></a>
+                    <a href="https://www.youtube.com/channel/UCtf6vKrkP3La67-OWp7VmjA" target="_blank" rel="noopener noreferrer"  aria-label="YouTube" title="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M21.582 7.64s-.18-1.272-.734-1.822c-.736-.736-1.555-.73-1.932-.777C16.96 5 12 5 12 5s-4.96 0-6.916.04c-.377.048-1.196.04-1.932.778-.553.55-.733 1.822-.733 1.822S2.25 9.143 2.25 12s0 4.357.168 5.86c0 0 .18 1.272.734 1.822.736.736 1.555.73 1.932.777C7.04 20.5 12 20.5 12 20.5s4.96 0 6.916-.04c.377-.048 1.196-.04 1.932-.778.553-.55.733-1.822.733-1.822S21.75 14.857 21.75 12s0-4.357-.168-5.86zM9.75 15V9l5.25 3z"></path></svg></a>
+                    <a href="mailto:bptsp.pengaduan@jakarta.go.id" target="_blank" rel="noopener noreferrer"  aria-label="Email" title="Email"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0l-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z"></path></svg></a>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                &copy; 2025. Provincial Government of the Special Capital Region of Jakarta.
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="kaleidoscope.js"></script>
+    <script src="transition.js"></script>
+</body>
+</html>

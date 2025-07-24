@@ -1,0 +1,42 @@
+/* Sembunyikan konten utama secara default */
+#page-wrapper {
+    opacity: 0;
+}
+
+/* -- Efek Transisi Halaman -- */
+
+/* Kelas untuk membuat elemen transparan dan siap untuk fade-in */
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in forwards;
+}
+
+/* Kelas untuk membuat elemen menghilang (fade-out) */
+.fade-out {
+    opacity: 1;
+    animation: fadeOut 0.5s ease-out forwards;
+}
+
+/* Definisi animasi fadeIn */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px); /* Efek naik sedikit saat muncul */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Definisi animasi fadeOut */
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(10px); /* Efek turun sedikit saat hilang */
+    }
+}
