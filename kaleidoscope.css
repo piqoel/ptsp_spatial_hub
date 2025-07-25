@@ -8,7 +8,7 @@
     --border-color: rgba(255, 255, 255, 0.2);
     /* [PENYESUAIAN 1] Tingkat transparansi header & footer */
     --header-footer-bg: rgba(0, 0, 0, 0.3); 
-    --sticky-header-height: 150px; 
+    --sticky-header-height: 130px; 
     --font-heading: 'Space Grotesk', sans-serif;
     --font-body: 'Roboto', sans-serif;
 }
@@ -62,7 +62,7 @@ body::before {
 .nav-link.active { color: var(--white); border-bottom-color: var(--white); } /* Warna aktif jadi putih */
 
 /* --- KONTEN UTAMA & GALERI --- */
-.content-wrapper { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+.content-wrapper { max-width: 1400px; margin: 0 auto; padding: 0 2rem 2rem 2rem; }
 .gallery-section { scroll-margin-top: var(--sticky-header-height); }
 .gallery-section h2 {
     font-family: var(--font-heading);
